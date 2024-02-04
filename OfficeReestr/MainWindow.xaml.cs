@@ -30,42 +30,42 @@ namespace OfficeReestr
             // Укажите строку подключения к вашей базе данных
             string connectionString = "your_connection_string";
 
-            try
-            {
-                using (SqlConnection connection = new SqlConnection(connectionString))
-                {
-                    connection.Open();
-
-                    // Здесь вы можете выполнить SQL-запрос для получения информации о кабинетах и компьютерах из базы данных
-
-                    // Пример SQL-запроса:
-                    // string sqlQuery = "SELECT CabinetName, ComputerName FROM YourTable";
-                    // SqlCommand command = new SqlCommand(sqlQuery, connection);
-                    // SqlDataReader reader = command.ExecuteReader();
-
-                    // Замените этот блок кода на обработку реальных данных из базы данных
-
-                    string[] cabinetNames = { "Юр. Отдел", "Администрация", "Учебный класс" }; // Пример данных
-                    int computersPerCabinet = 5; // Пример данных
-
-                    foreach (var cabinetName in cabinetNames)
-                    {
-                        TreeViewItem cabinetItem = new TreeViewItem { Header = cabinetName };
-                        directoryTreeView.Items.Add(cabinetItem);
-
-                        for (int i = 1; i <= computersPerCabinet; i++)
-                        {
-                            string computerName = $"Computer{i}";
-                            TreeViewItem computerItem = new TreeViewItem { Header = computerName };
-                            cabinetItem.Items.Add(computerItem);
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Ошибка при подключении к базе данных: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
+            // try
+            // {
+            //     using (SqlConnection connection = new SqlConnection(connectionString))
+            //     {
+            //         connection.Open();
+            //
+            //         // Здесь вы можете выполнить SQL-запрос для получения информации о кабинетах и компьютерах из базы данных
+            //
+            //         // Пример SQL-запроса:
+            //         // string sqlQuery = "SELECT CabinetName, ComputerName FROM YourTable";
+            //         // SqlCommand command = new SqlCommand(sqlQuery, connection);
+            //         // SqlDataReader reader = command.ExecuteReader();
+            //
+            //         // Замените этот блок кода на обработку реальных данных из базы данных
+            //
+            //         string[] cabinetNames = { "Юр. Отдел", "Администрация", "Учебный класс" }; // Пример данных
+            //         int computersPerCabinet = 5; // Пример данных
+            //
+            //         foreach (var cabinetName in cabinetNames)
+            //         {
+            //             TreeViewItem cabinetItem = new TreeViewItem { Header = cabinetName };
+            //             directoryTreeView.Items.Add(cabinetItem);
+            //
+            //             for (int i = 1; i <= computersPerCabinet; i++)
+            //             {
+            //                 string computerName = $"Computer{i}";
+            //                 TreeViewItem computerItem = new TreeViewItem { Header = computerName };
+            //                 cabinetItem.Items.Add(computerItem);
+            //             }
+            //         }
+            //     }
+            // }
+            // catch (Exception ex)
+            // {
+            //     MessageBox.Show($"Ошибка при подключении к базе данных: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            // }
         }
     }
 }
