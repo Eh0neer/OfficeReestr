@@ -1,0 +1,52 @@
+﻿<Window x:Class="OfficeReestr.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OfficeReestr"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1700" Background="#0E1621" WindowStartupLocation="CenterScreen" FontFamily="PT Astra Serif" Loaded="MainWindow_Loaded">
+    <Grid>
+        
+        <DockPanel LastChildFill="True">
+            <!-- Меню Файл -->
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="Файл">
+                    <MenuItem Header="Открыть" Command="Open"/>
+                    <MenuItem Header="Сохранить" Command="Save"/>
+                    <MenuItem Header="Выход" Command="Close"/>
+                </MenuItem>
+                <MenuItem Header="Отчёты">
+                    <MenuItem Header="Создать отчёт"/>
+                    <MenuItem Header="Просмотреть отчёты"/>
+                </MenuItem>
+                <MenuItem Header="Таблицы">
+                    <MenuItem Header=""/>
+                </MenuItem>
+                <MenuItem Header="Помощь">
+                    <MenuItem Header="Связь с разработчиком"/>
+                    <MenuItem Header="Версия приложения"/>
+                </MenuItem>
+            </Menu>
+            
+            
+            
+
+            <!-- Основное содержимое окна -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="20"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="25"/>
+                </Grid.RowDefinitions>
+                
+                <TreeView Grid.Row="1" Grid.Column="0" Name="directoryTreeView" FontFamily="PT Astra Serif" FontSize="18"/>
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Window>
