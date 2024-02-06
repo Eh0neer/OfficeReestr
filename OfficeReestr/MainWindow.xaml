@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OfficeReestr"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="1700" Background="#0E1621" WindowStartupLocation="CenterScreen" FontFamily="PT Astra Serif" Loaded="MainWindow_Loaded">
+        Title="MainWindow" Height="800" Width="1700" Background="#0E1621" WindowStartupLocation="CenterScreen" FontFamily="PT Astra Serif">
     <Grid>
         
         <DockPanel LastChildFill="True">
@@ -45,7 +45,17 @@
                     <RowDefinition Height="25"/>
                 </Grid.RowDefinitions>
                 
-                <TreeView Grid.Row="1" Grid.Column="0" Name="directoryTreeView" FontFamily="PT Astra Serif" FontSize="18"/>
+                <TreeView Grid.Row="1" Grid.Column="0" Name="directoryTreeView" FontFamily="PT Astra Serif" FontSize="18">
+                    <TreeView.ItemTemplate>
+                        <!-- ItemTemplate without a specific class -->
+                        <HierarchicalDataTemplate ItemsSource="{Binding Children}">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="OfficeReestr\Images\folderICON.png" Width="3" Height="3"/>
+                            </StackPanel>
+                        </HierarchicalDataTemplate>
+                    </TreeView.ItemTemplate>
+                </TreeView>
+
             </Grid>
         </DockPanel>
     </Grid>
