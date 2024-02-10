@@ -51,6 +51,7 @@
                         <HierarchicalDataTemplate ItemsSource="{Binding Children}">
                             <StackPanel Orientation="Horizontal">
                                 <Image Source="OfficeReestr\Images\folderICON.png" Width="3" Height="3"/>
+                                <TextBlock/>
                             </StackPanel>
                         </HierarchicalDataTemplate>
                     </TreeView.ItemTemplate>

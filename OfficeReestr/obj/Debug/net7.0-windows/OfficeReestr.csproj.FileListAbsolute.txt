@@ -38,3 +38,5 @@ C:\Users\eh0neer\Desktop\OfficeReestrProject\OfficeReestrEXECode\OfficeReestr\Of
 C:\Users\eh0neer\Desktop\OfficeReestrProject\OfficeReestrEXECode\OfficeReestr\OfficeReestr\bin\Debug\net7.0-windows\Npgsql.dll
 C:\Users\eh0neer\Desktop\OfficeReestrProject\OfficeReestrEXECode\OfficeReestr\OfficeReestr\bin\Debug\net7.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\eh0neer\Desktop\OfficeReestrProject\OfficeReestrEXECode\OfficeReestr\OfficeReestr\obj\Debug\net7.0-windows\OfficeReestr.csproj.CopyComplete
+C:\Users\eh0neer\Desktop\OfficeReestrProject\OfficeReestrEXECode\OfficeReestr\OfficeReestr\obj\Debug\net7.0-windows\Views\RegWindowView.g.cs
+C:\Users\eh0neer\Desktop\OfficeReestrProject\OfficeReestrEXECode\OfficeReestr\OfficeReestr\obj\Debug\net7.0-windows\Views\RegWindowView.baml
