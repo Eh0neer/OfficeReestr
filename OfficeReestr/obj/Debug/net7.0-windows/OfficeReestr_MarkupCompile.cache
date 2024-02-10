@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\eh0neer\Desktop\OfficeReestrProject\OfficeReestrEXECode\OfficeReestr\OfficeReestr\App.xaml
-2-545408569
+3-550997784
 
-6317137373
-212-2105655955
-MainWindow.xaml;Views\RegWindowView.xaml;
+19773866038
+215-738875754
+MainWindow.xaml;Views\AuthWindowView.xaml;Views\RegWindowView.xaml;
 
 False
 

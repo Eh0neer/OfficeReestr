@@ -2,8 +2,11 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:OfficeReestr"
-             StartupUri="MainWindow.xaml">
+             StartupUri="Views/AuthWindowView.xaml">
     <Application.Resources>
-         
+        <!-- В разделе Window.Resources или любом другом уровне ресурсов -->
+        <Style TargetType="PasswordBox" x:Key="PlaceholderPasswordBoxStyle">
+            <!-- ... (код стиля из предыдущего ответа) ... -->
+        </Style>
     </Application.Resources>
 </Application>

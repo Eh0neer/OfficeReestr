@@ -10,6 +10,9 @@ public partial class User
     public string? Username { get; set; }
 
     public string? Password { get; set; }
+    
+    // Добавляем поле для хранения соли
+    public string Salt { get; set; }
 
     public int? RoleId { get; set; }
 
