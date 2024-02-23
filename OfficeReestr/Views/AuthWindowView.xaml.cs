@@ -18,22 +18,12 @@ public partial class AuthWindowView : Window
     private void RegButton_OnClick(object sender, RoutedEventArgs e)
     {
         new RegWindowView().Show();
-        this.Close();
-    }
-
-    private void RememberMeBox_Unchecked(object sender, RoutedEventArgs e)
-    {
-        throw new System.NotImplementedException();
-    }
-
-    private void RememberMeBox_Checked(object sender, RoutedEventArgs e)
-    {
-        throw new System.NotImplementedException();
+        this.Hide();
     }
 
     private void ForgotPassword_OnClick(object sender, RoutedEventArgs e)
     {
-        throw new System.NotImplementedException();
+        MessageBox.Show("Обратитесь к своему системному администратору!", "Внимание");
     }
 
     private void AuthButton_OnClick(object sender, RoutedEventArgs e)
@@ -59,12 +49,12 @@ public partial class AuthWindowView : Window
             }
             else
             {
-                MessageBox.Show("Incorrect login or password", "Authorization error ");
+                MessageBox.Show("Неправильный логин или пароль", "Ошибка авотризации");
             }
         }
         else
         {
-            MessageBox.Show("User not found", "Authorization error ");
+            MessageBox.Show("Пользователь не найден", "Ошибка авотризации");
         }
     }
 }

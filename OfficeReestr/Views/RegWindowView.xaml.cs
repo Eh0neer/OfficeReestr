@@ -1,8 +1,8 @@
 ﻿using System;
+using System.Linq;
 using System.Windows;
 using OfficeReestr.OfficeReestrModel;
 using OfficeReestr.Utilities;
-using System.Linq;
 
 namespace OfficeReestr.Views;
 
@@ -20,7 +20,7 @@ public partial class RegWindowView : Window
 
         
         // Проверка наличия данных в текстовых полях
-        if (string.IsNullOrEmpty(login) || string.IsNullOrEmpty(enteredPassword))
+        if (string.IsNullOrEmpty(login) || string.IsNullOrEmpty(enteredPassword) || string.IsNullOrWhiteSpace(login) || string.IsNullOrWhiteSpace(enteredPassword))
         {
             MessageBox.Show("Пожалуйста, введите логин и пароль", "Ошибка аутентификации");
             return;
@@ -83,6 +83,6 @@ public partial class RegWindowView : Window
     private void BackLoginWindow_OnClick(object sender, RoutedEventArgs e)
     {
         new AuthWindowView().Show();
-        this.Close();
+        this.Hide();
     }
 }

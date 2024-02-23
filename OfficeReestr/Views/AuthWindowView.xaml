@@ -26,7 +26,7 @@
         <PasswordBox x:Name="PasswordBox" Margin="0,80,0,0" Grid.Row="2" FontFamily="PT Astra Serif" FontSize="20" Height="30" Width="400" VerticalAlignment="Top" HorizontalAlignment="Center"/>
         
         
-        <CheckBox x:Name="RememberMeBox" IsChecked="False" Unchecked="RememberMeBox_Unchecked" Checked="RememberMeBox_Checked" Content="Запомнить меня" Foreground="White" FontSize="19" Grid.Row="3" Margin="90,0,0,0"></CheckBox>
+        <CheckBox x:Name="RememberMeBox" IsChecked="True" Content="Запомнить меня" Foreground="White" FontSize="19" Grid.Row="3" Margin="90,0,0,0"></CheckBox>
         <Button x:Name="ForgotPassword" Click="ForgotPassword_OnClick" FontFamily="PT Astra Serif" BorderBrush="Transparent" Grid.Row="3" Background="Transparent" Margin="0,0,97,0"  Content="Забыли пароль?" HorizontalAlignment="Right" VerticalAlignment="Top"  Foreground="White" FontSize="19"/>
         
         

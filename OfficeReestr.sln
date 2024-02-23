@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeReestr", "OfficeReestr\OfficeReestr.csproj", "{91DA515B-89D6-4CF0-BF75-D709EF3E04F6}"
 EndProject
 Global
@@ -12,5 +15,11 @@ Global
 		{91DA515B-89D6-4CF0-BF75-D709EF3E04F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91DA515B-89D6-4CF0-BF75-D709EF3E04F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91DA515B-89D6-4CF0-BF75-D709EF3E04F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51217340-4C8F-46B9-B939-202081832DAF}
 	EndGlobalSection
 EndGlobal
