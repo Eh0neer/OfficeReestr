@@ -1164,11 +1164,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\meydo\\Рабочий стол\\OfficeReestrProject\\OfficeReestrEXECode\\OfficeReestr\\OfficeReestr\\OfficeReestr.csproj",
+      "projectUniqueName": "c:\\Users\\meydo\\Рабочий стол\\OfficeReestrProject\\OfficeReestrEXECode\\OfficeReestr\\OfficeReestr\\OfficeReestr.csproj",
       "projectName": "OfficeReestr",
-      "projectPath": "C:\\Users\\meydo\\Рабочий стол\\OfficeReestrProject\\OfficeReestrEXECode\\OfficeReestr\\OfficeReestr\\OfficeReestr.csproj",
+      "projectPath": "c:\\Users\\meydo\\Рабочий стол\\OfficeReestrProject\\OfficeReestrEXECode\\OfficeReestr\\OfficeReestr\\OfficeReestr.csproj",
       "packagesPath": "C:\\Users\\meydo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\meydo\\Рабочий стол\\OfficeReestrProject\\OfficeReestrEXECode\\OfficeReestr\\OfficeReestr\\obj\\",
+      "outputPath": "c:\\Users\\meydo\\Рабочий стол\\OfficeReestrProject\\OfficeReestrEXECode\\OfficeReestr\\OfficeReestr\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1196,6 +1196,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
