@@ -30,7 +30,11 @@
         <Button x:Name="ForgotPassword" Click="ForgotPassword_OnClick" FontFamily="PT Astra Serif" BorderBrush="Transparent" Grid.Row="3" Background="Transparent" Margin="0,0,97,0"  Content="Забыли пароль?" HorizontalAlignment="Right" VerticalAlignment="Top"  Foreground="White" FontSize="19"/>
         
         
-        <Button x:Name="AuthButton" Click="AuthButton_OnClick" Content="Авторизоваться" Foreground="White" FontSize="20" FontFamily="PT Astra Serif" Grid.Row="4" Height="45" Width="400" Background="Brown"></Button>
+        <Button x:Name="AuthButton" Click="AuthButton_OnClick" Content="Авторизоваться" Foreground="White" FontSize="20" FontFamily="PT Astra Serif" Grid.Row="4" Height="45" Width="400" Background="Brown"> <Button.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="5"/>
+            </Style>
+        </Button.Resources></Button>
     </Grid>
     
 </Window>

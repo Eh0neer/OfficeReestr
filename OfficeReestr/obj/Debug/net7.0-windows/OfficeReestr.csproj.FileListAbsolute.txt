@@ -95,3 +95,5 @@ C:\Users\meydo\Рабочий стол\OfficeReestrProject\OfficeReestrEXECode\O
 C:\Users\meydo\Рабочий стол\OfficeReestrProject\OfficeReestrEXECode\OfficeReestr\OfficeReestr\obj\Debug\net7.0-windows\OfficeReestr.pdb
 C:\Users\meydo\Рабочий стол\OfficeReestrProject\OfficeReestrEXECode\OfficeReestr\OfficeReestr\obj\Debug\net7.0-windows\OfficeReestr.genruntimeconfig.cache
 C:\Users\meydo\Рабочий стол\OfficeReestrProject\OfficeReestrEXECode\OfficeReestr\OfficeReestr\obj\Debug\net7.0-windows\ref\OfficeReestr.dll
+C:\Users\meydo\Рабочий стол\OfficeReestrProject\OfficeReestrEXECode\OfficeReestr\OfficeReestr\obj\Debug\net7.0-windows\Views\EmployeeWindowView.g.cs
+C:\Users\meydo\Рабочий стол\OfficeReestrProject\OfficeReestrEXECode\OfficeReestr\OfficeReestr\obj\Debug\net7.0-windows\Views\EmployeeWindowView.baml

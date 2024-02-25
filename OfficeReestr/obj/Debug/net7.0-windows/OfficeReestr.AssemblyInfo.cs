@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OfficeReestr")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e210d24393c6e4fed77a28c739653942e48af59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b226669a2f07c24e827310e3fde2de21ac3a462f")]
 [assembly: System.Reflection.AssemblyProductAttribute("OfficeReestr")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OfficeReestr")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

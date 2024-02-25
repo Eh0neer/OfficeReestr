@@ -24,7 +24,11 @@
         <PasswordBox x:Name="PasswordBox" Margin="0,80,0,0" Grid.Row="2" FontFamily="PT Astra Serif" FontSize="20" Height="30" Width="400" VerticalAlignment="Top" HorizontalAlignment="Center"/>
         
         
-        <Button x:Name="AuthButton" Click="RegButton_OnClick" Content="Регистрация" Foreground="White" FontSize="20" FontFamily="PT Astra Serif" Grid.Row="4" Height="45" Width="400" Background="Brown"></Button>
+        <Button x:Name="AuthButton" Click="RegButton_OnClick" Content="Регистрация" Foreground="White" FontSize="20" FontFamily="PT Astra Serif" Grid.Row="4" Height="45" Width="400" Background="Brown"> <Button.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="5"/>
+            </Style>
+        </Button.Resources></Button>
         <Button x:Name="BackLoginWindow" Click="BackLoginWindow_OnClick" Content="Назад" Margin="0,0,10,10" Foreground="White" FontSize="20" FontFamily="PT Astra Serif" Grid.Row="4" Height="35" Background="Transparent" BorderBrush="Transparent" Width="100" VerticalAlignment="Bottom" HorizontalAlignment="Right"></Button>
     </Grid>
 </Window>
